@@ -26,15 +26,6 @@ def main():
                 else:
                     print("Inadequate funds")
 
-        key_list = list(invent.inventory_dict.keys())
-        value_list = list(invent.inventory_dict.values())
-
-        continue_choice = input("Try again? ") #check if user wants to keep using machine
-        
-        if continue_choice == "yes":
-            continue
-        else:
-            active = False #breaks loop and ends program if user does not say yes
 
 
 
